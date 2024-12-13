@@ -1,6 +1,6 @@
-# Simple Weather MCP Server Example
+# Simple Weather MCP Server example from Quickstart
 
-Ref: https://modelcontextprotocol.io/quickstart
+An example explained MCP Quickstart: https://modelcontextprotocol.io/quickstart
 
 ## How to build
 
@@ -12,7 +12,7 @@ npm run build
 ## Claude for Desktop configuration
 
 ```bash
-yourEditor ~/Library/Application\ Support/Claude/claude_desktop_config.json
+cursor ~/Library/Application\ Support/Claude/claude_desktop_config.json
 ```
 
 ```json
