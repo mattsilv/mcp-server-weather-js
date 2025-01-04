@@ -1,6 +1,16 @@
 # Simple Weather MCP Server example from Quickstart
 
-An example explained MCP Quickstart: https://modelcontextprotocol.io/quickstart
+Node.js server implementing Model Context Protocol (MCP) for accessing weather information.
+
+This is an example explained in [MCP Quickstart](https://modelcontextprotocol.io/quickstart).
+
+## Original Author and License
+
+This example is based on the code explained in [MCP Quickstart](https://modelcontextprotocol.io/quickstart)
+([github](https://github.com/modelcontextprotocol/docs)),
+whose license is [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
+Since any other license is specified, the same license is applied,
+even though it is said not to be suitable for software.
 
 ## How to build
 
@@ -11,19 +21,22 @@ npm run build
 
 ## Claude for Desktop configuration
 
-```bash
-cursor ~/Library/Application\ Support/Claude/claude_desktop_config.json
+```
+# MacOS/Linux
+code ~/Library/Application\ Support/Claude/claude_desktop_config.json
+# Windows
+code $env:AppData\Claude\claude_desktop_config.json
 ```
 
 ```json
 {
-    "mcpServers": {
-        "weather": {
-            "command": "node",
-            "args": [
-                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/weather/build/index.js"
-            ]
-        }
+  "mcpServers": {
+    "weather": {
+      "command": "node",
+      "args": [
+        "/ABSOLUTE/PATH/TO/THIS/FOLDER/dist/index.js"
+      ]
     }
+  }
 }
 ```
