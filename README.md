@@ -20,7 +20,8 @@ even though it is said not to be suitable for software...
 ## Usage with Claude Desktop
 
 Merge the following JSON fragment into your `claude_desktop_config.json`.
-Please refer to [MCP Quickstart](https://modelcontextprotocol.io/quickstart) for more details.
+Please refer to the "Testing your server with Claude for Desktop" section of
+[MCP Quickstart](https://modelcontextprotocol.io/quickstart) for more details.
 
 ```
 # MacOS/Linux
@@ -47,7 +48,7 @@ code $env:AppData\Claude\claude_desktop_config.json
 ## Tools
 
 - **get-alerts**
-  - Get weather alerts for a state in the U.S.
+  - Get weather alerts for a US state.
   - Input: `state` (string): Two-letter state code (e.g. CA, NY)
 - **get-forecast**
   - Get weather forecast for a location in the U.S.
@@ -57,5 +58,5 @@ code $env:AppData\Claude\claude_desktop_config.json
 
 ## Example Queries
 
-- "What's the weather like in Cupertino?"
+- "What's the weather like in Palo Alto?"
 - "Is there a weather alert in California?"

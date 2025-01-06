@@ -42,13 +42,13 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
     tools: [
       {
         name: "get-alerts",
-        description: "Get weather alerts for a state in the U.S.",
+        description: "Get weather alerts for a US state",
         inputSchema: {
           type: "object",
           properties: {
             state: {
               type: "string",
-              description: "Two-letter state code (e.g. CA, NY)",
+              description: "Two-letter US state code (e.g. CA, NY)",
             },
           },
           required: ["state"],
@@ -56,7 +56,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       },
       {
         name: "get-forecast",
-        description: "Get weather forecast for a location in the U.S.",
+        description: "Get weather forecast for a location in the US",
         inputSchema: {
           type: "object",
           properties: {
