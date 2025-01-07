@@ -1,4 +1,4 @@
-# Simple Weather MCP Server example from Quickstart [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/) [![npm version](https://img.shields.io/npm/v/@h1deya/mcp-server-weather.svg)](https://www.npmjs.com/package/@h1deya/mcp-server-weather)
+# Simple Weather MCP Server example from Quickstart [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hideya/weather-mcp-server/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/@h1deya/mcp-server-weather.svg)](https://www.npmjs.com/package/@h1deya/mcp-server-weather)
 
 Node.js server implementing
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
@@ -14,8 +14,10 @@ for convenient use with `npx`.
 This example is based on the code explained in [MCP Quickstart](https://modelcontextprotocol.io/quickstart)
 ([github](https://github.com/modelcontextprotocol/docs)),
 whose license is [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
-Because no other license is specified, the same license has been applied,
-even though it is said not to be suitable for software...
+The completed code examples are also hosted in
+[this repo](https://github.com/modelcontextprotocol/quickstart-resources),
+whose license is MIT (Copyright (c) 2025 Model Context Protocol).
+So I've chosen the MIT license for this repo.
 
 ## Usage with Claude Desktop
 
