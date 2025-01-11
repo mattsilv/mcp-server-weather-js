@@ -1,4 +1,4 @@
-# Simple Weather MCP Server example from Quickstart [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hideya/weather-mcp-server/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/@h1deya/mcp-server-weather.svg)](https://www.npmjs.com/package/@h1deya/mcp-server-weather)
+# Simple Weather MCP Server example from Quickstart [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hideya/mcp-server-weather-js/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/@h1deya/mcp-server-weather.svg)](https://www.npmjs.com/package/@h1deya/mcp-server-weather)
 
 Node.js server implementing
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
@@ -41,17 +41,17 @@ code $env:AppData\Claude\claude_desktop_config.json
 
 - **get-alerts**
   - Get weather alerts for a US state.
-  - Input: `state` (string): Two-letter state code (e.g. CA, NY)
+  - Input: `state` (string): Two-letter US state code (e.g. CA, NY)
 - **get-forecast**
-  - Get weather forecast for a location in the U.S.
+  - Get weather forecast for a location in the US
   - Inputs:
     - `path` (number): Latitude of the location
     - `content` (number): Longitude of the location
 
 ## Example Queries
 
-- "Tomorrow's weather in Palo Alto?"
-- "Any weather alerts in California?"
+- Tomorrow's weather in Palo Alto?
+- Any weather alerts in California?
 
 ## Original Author and License
 
