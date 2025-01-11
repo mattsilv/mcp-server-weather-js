@@ -2,22 +2,12 @@
 
 Node.js server implementing
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)
-for accessing weather information in the U.S.
+for accessing weather information in the US.
 
 This is an example explained in [MCP Quickstart](https://modelcontextprotocol.io/quickstart).
 
 It has been hosted as an [npm package](https://www.npmjs.com/package/@h1deya/mcp-server-weather)
 for convenient use with `npx`.
-
-## Original Author and License
-
-This example is based on the code explained in [MCP Quickstart](https://modelcontextprotocol.io/quickstart)
-([github](https://github.com/modelcontextprotocol/docs)),
-whose license is [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
-The completed code examples are also hosted in
-[this repo](https://github.com/modelcontextprotocol/quickstart-resources),
-whose license is MIT (Copyright (c) 2025 Model Context Protocol).
-So I've chosen the MIT license for this repo.
 
 ## Usage with Claude Desktop
 
@@ -60,5 +50,15 @@ code $env:AppData\Claude\claude_desktop_config.json
 
 ## Example Queries
 
-- "What's the weather like in Palo Alto?"
-- "Is there a weather alert in California?"
+- "Tomorrow's weather in Palo Alto?"
+- "Any weather alerts in California?"
+
+## Original Author and License
+
+This example is based on the code explained in [MCP Quickstart](https://modelcontextprotocol.io/quickstart)
+([github](https://github.com/modelcontextprotocol/docs)),
+whose license is [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en).
+The completed code examples are also hosted in
+[this repo](https://github.com/modelcontextprotocol/quickstart-resources),
+whose license is MIT (Copyright (c) 2025 Model Context Protocol).
+So I've chosen the MIT license for this repo.
