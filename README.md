@@ -16,11 +16,11 @@ Please refer to the "Testing your server with Claude for Desktop" section of
 [MCP Quickstart](https://modelcontextprotocol.io/quickstart) for more details.
 
 ```
-# MacOS/Linux
-code ~/Library/Application\ Support/Claude/claude_desktop_config.json
+# MacOS/Linux Cursor IDE
+cursor ~/Library/Application\ Support/Claude/claude_desktop_config.json
 
-# Windows
-code $env:AppData\Claude\claude_desktop_config.json
+# Windows Cursor IDE
+cursor $env:AppData\Claude\claude_desktop_config.json
 ```
 
 ```json
