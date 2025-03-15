@@ -30,7 +30,7 @@ code $env:AppData\Claude\claude_desktop_config.json
       "command": "npx",
         "args": [
             "-y",
-            "@h1deya/mcp-server-weather"
+            "@mattsilv/mcp-server-weather"
         ],
     }
   }
